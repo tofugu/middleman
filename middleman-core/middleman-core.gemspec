@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.3'
 
   # Core
-  s.add_dependency("bundler", ["~> 1.1"])
+  s.add_dependency("bundler", ["> 1.1"])
   s.add_dependency("rack", [">= 1.4.5", "< 2.0"])
   s.add_dependency("tilt", ["~> 1.4.1", "< 2.0"])
   s.add_dependency("erubis")
